@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif ;
+}
+
+header{
+    background-color:  #384B5D;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 5px;
+}
+
+.header-ikon{
+    margin-left: 125px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.header-button{
+    color: white ;
+    text-decoration: none;
+    margin: 7px;
+}
+
+.header-button:hover{
+    color:#76D1FF;
+    
+}
+
+
+li{
+    list-style: none;
+    margin-top: 28px;
+    margin-left: 750px;
+}
+
+.intro-img{
+    background-image: url("./billeder/upload/Event_Centrum_0000_Special.jpg");
+  background-size: cover;
+  color: white;
+  height: 700px;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 0px;
+}
+
+h2{
+    font-size:30px ;
+    margin: 0;
+}
+
+.info-text:hover{
+    color: #76D1FF;
+}
+
+.info-text{
+    font-size:30px ;
+    padding: 5px;
+    border: 2px solid;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.sidere{
+    display: flex;
+    flex-direction: row;
+    height: 750px;
+}
+
+.side1{
+background-color: #76D1FF;
+color: white;
+width: 50%;
+padding-left:50px ;
+padding-right:50px ;
+padding-top: 60px;
+
+}
+
+.side2{
+    padding-top: 45px;
+    width: 50%;
+    padding-left:50px ;
+    padding-right:50px ;
+}
+
+.side2 div{
+    display: flex;
+}
+
+.side2 img{
+    height: 100px;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+.text-side2{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.Kontakter{
+ background-color: #272E36 ;
+ display: flex;
+ flex-direction: row;
+ height: 525px;
+}
+
+.Kontakt1{
+color: white;
+width: 50%;
+padding-top: 100px;
+    padding-left:50px ;
+    padding-right:50px ;
+}
+
+.Kontakt1 div{
+    display: flex;
+}
+
+.Kontakt1 img{
+    height: 100%;
+    padding-top: 25px;
+    padding-right: 10px;
+}
+
+.Kontakterne{
+    display: flex;
+    flex-direction: column;
+}
+
+.Adresse{
+    color: white ;
+}
+
+.Adresse:hover{
+    color: #76D1FF;
+}
+
+.Email{
+    color: white ;
+}
+
+.Email:hover{
+    color: #76D1FF;
+}
+
+.Kontakt2{
+color: white;
+width: 50%;
+padding-top: 15px;
+    padding-left:50px ;
+    padding-right:50px ;
+    background-color: #2C3640 ;
+    height: 410px;
+    width: 500px;
+    margin-top: 50px;
+    
+}
+
+.Nameholder{
+    color:white;
+    background-color: #272E36;
+    width: 475px;
+    border: #83888E 2px solid;
+    height: 30px;
+}
+
+.Emailholder{
+    color:white;
+    background-color: #272E36;
+    width: 475px;
+    border: #83888E 2px solid;
+    height: 30px;   
+}
+
+.Beskedholder{
+    font-family: "Roboto", sans-serif;
+    color:white;
+    background-color: #272E36;
+    width: 475px;
+    border: #83888E 2px solid;
+    height: 150px;
+}
+
+.Sent-end{
+    padding-top: px ;
+    color: #CCCDD1;
+    background-color: #4A4D52 ;
+    width:484px ;
+    height: 45px;
+    border: 5px;
+    border-radius: 5px;
+}
+
+.Sent-end div{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+
